@@ -6,24 +6,32 @@
 
 ## 🌐 Live Website
 
-**[Visit FlowPilot →](https://ghoshsoubhik622-rgb.github.io/FlowPilot/)**
+### [🚀 Visit FlowPilot](https://ghoshsoubhik622-rgb.github.io/FlowPilot/)
+
+Experience the FlowPilot website on desktop, tablet, and mobile devices.
+
+---
 
 ## 📸 Website Preview
 
 ### Homepage
-![FlowPilot Homepage](flowpilot-homepage.png)
+
+![FlowPilot Homepage](<Screenshot 2026-11-14 232207.png>)
 
 ### Pricing Section
-![FlowPilot Pricing](flowpilot-pricing.png)
+
+![FlowPilot Pricing](./flowpilot-pricing.png.png)
+
+---
 
 ## ✨ Key Features
 
 - **Project Management:** Organize projects and manage tasks efficiently.
 - **Smart Automation:** Simplify repetitive workflow activities.
 - **Team Collaboration:** Improve communication and teamwork.
-- **Responsive Design:** Access the website on desktop, tablet, and mobile.
-- **Modern Interface:** Clean, professional and user-friendly design.
-- **Pricing Plans:** Starter, Growth and Pro packages.
+- **Responsive Design:** Access the website across different devices.
+- **Modern Interface:** Clean, professional, and user-friendly design.
+- **Pricing Plans:** Starter, Growth, and Pro packages.
 
 ## 🛠️ Technologies Used
 
@@ -41,8 +49,8 @@ FlowPilot/
 ├── styles.css
 ├── script.js
 ├── README.md
-├── flowpilot-homepage.png
-└── flowpilot-pricing.png
+├── Screenshot 2026-11-14 232207.png
+└── flowpilot-pricing.png.png
 ```
 
 ## 💻 Run Locally
@@ -51,14 +59,15 @@ FlowPilot/
 
    `git clone https://github.com/ghoshsoubhik622-rgb/FlowPilot.git`
 
-2. Open the project folder in VS Code.
+2. Open the project folder in Visual Studio Code.
 3. Open `index.html` using Live Server.
 
 ## 🚀 Deployment
 
-This project is hosted using **GitHub Pages**.
+FlowPilot is deployed using GitHub Pages.
 
-Live URL: https://ghoshsoubhik622-rgb.github.io/FlowPilot/
+**Live URL:**  
+https://ghoshsoubhik622-rgb.github.io/FlowPilot/
 
 ## 👨‍💻 Developer
 
