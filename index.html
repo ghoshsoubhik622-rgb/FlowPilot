@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FlowPilot brings projects, automation and teamwork into one thoughtful workspace.">
+  <title>FlowPilot | Make room for your best work</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo" aria-label="FlowPilot home">
+      <svg class="logo-symbol" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M8 39L13 12C14 8 17 5 22 5H42L35 14H23L21 21H35L28 30H20L18 39H8Z" fill="currentColor"/>
+        <path d="M21 21H35L28 30H20Z" fill="#B8DB91"/>
+      </svg>
+      <span class="logo-name">FlowPilot<span class="logo-dot">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#features">Why FlowPilot</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-primary nav-cta" data-open-auth="signup">Get started ↗</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>A CALMER WAY TO WORK TOGETHER</p>
+        <h1>Make room<br>for your best<br>work<span class="accent-dot">.</span></h1>
+
+        <p class="hero-description">
+          A little less busywork. A lot more making. FlowPilot brings your
+          team's plans, people and progress into one thoughtful place.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-large" data-open-auth="signup">
+            Find your flow <span>→</span>
+          </button>
+          <a href="#how-it-works" class="hero-video-link">
+            <span class="play-icon">▶</span>
+            <span><strong>See how it works</strong><small>2 min</small></span>
+          </a>
+        </div>
+
+        <div class="team-proof">
+          <div class="avatar-stack">
+            <span>J</span><span>M</span><span>A</span><span>+</span>
+          </div>
+          <div>
+            <strong>A little more in sync.</strong>
+            <p>For teams of all kinds.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DASHBOARD PREVIEW -->
+      <div class="dashboard-wrap">
+        <div class="dashboard-orb"></div>
+
+        <div class="dashboard-card">
+          <div class="dashboard-topbar">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>flowpilot / studio</span>
+            <span class="dashboard-menu">•••</span>
+          </div>
+
+          <div class="dashboard-body">
+            <aside class="dashboard-sidebar">
+              <div class="mini-logo">F</div>
+              <div class="side-item active">▣ <span>Overview</span></div>
+              <div class="side-item">□ <span>My work</span></div>
+              <div class="side-item">□ <span>Projects</span></div>
+              <div class="side-user"><span>S</span> Studio team</div>
+            </aside>
+
+            <div class="dashboard-main">
+              <p class="dashboard-date">MONDAY, MAY 19</p>
+              <h3>A good day to<br>make things happen<span class="accent-dot">.</span></h3>
+
+              <div class="dashboard-task-heading">
+                <strong>On your plate</strong>
+                <span>View all ↗</span>
+              </div>
+
+              <div class="dashboard-task completed">
+                <span class="task-check">✓</span>
+                <span>Send the first draft</span>
+                <b>J</b>
+              </div>
+              <div class="dashboard-task">
+                <span class="task-empty"></span>
+                <span>Review the moodboard</span>
+                <b>M</b>
+              </div>
+              <div class="dashboard-task">
+                <span class="task-empty"></span>
+                <span>A few words for launch</span>
+                <b>A</b>
+              </div>
+
+              <div class="dashboard-project">
+                <span class="project-icon">✳</span>
+                <div>
+                  <strong>Brand refresh</strong>
+                  <small>3 of 5 things in motion</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-notification">
+          <span>✓</span>
+          <div>
+            <strong>One thing at a time.</strong>
+            <small>You're right on track.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATEMENT STRIP -->
+  <section class="statement-strip">
+    <div class="container statement-grid">
+      <p class="eyebrow">GOOD WORK, WITHOUT THE EXTRA NOISE.</p>
+      <div><strong>One place</strong><span>for plans and progress</span></div>
+      <div><strong>More focus</strong><span>for the work that matters</span></div>
+      <div class="statement-last">Made for the work<br>that matters to you.</div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features-section" id="features">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">A BETTER KIND OF WORKSPACE</p>
+        <div class="heading-row">
+          <h2>Good work needs<br>a little <em>room.</em></h2>
+          <p>
+            Work can feel like a hundred tabs open at once. FlowPilot brings
+            the moving parts together, then gives everyone a little space
+            to do what they do best.
+          </p>
+        </div>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-top"><span>01 / 03</span><i class="feature-icon">▱</i></div>
+          <h3>Everything, in its place</h3>
+          <p>Projects, conversations, and the tiny details that move work forward. One clear home for all of it.</p>
+          <a href="#project-details" class="feature-link" aria-label="Explore project management">↗</a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top"><span>02 / 03</span><i class="feature-icon peach">ϟ</i></div>
+          <h3>Less chasing. More making.</h3>
+          <p>See what needs you, what can wait, and where the team is headed—without another status meeting.</p>
+          <a href="#automation-details" class="feature-link" aria-label="Explore automation">↗</a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top"><span>03 / 03</span><i class="feature-icon blue">⌁</i></div>
+          <h3>A little room to think</h3>
+          <p>A considered workspace that stays out of the way, so your best work can take the front seat.</p>
+          <a href="#collaboration-details" class="feature-link" aria-label="Explore collaboration">↗</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how-section" id="how-it-works">
+    <div class="container how-grid">
+      <div class="how-intro">
+        <p class="eyebrow">A SMALLER LEARNING CURVE</p>
+        <h2>From “where was that?”<br>to <em>“we've got this.”</em></h2>
+        <p>
+          Bring the team together in a few simple steps. No grand rollout.
+          No playbook to memorize. Just a more natural way to move forward.
+        </p>
+        <button class="text-link" data-open-auth="signup">Meet your new workspace →</button>
+      </div>
+
+      <div class="how-steps">
+        <div class="how-step">
+          <span>01</span>
+          <div><strong>Bring the pieces together</strong><p>Gather projects, tasks, and conversations in one shared space.</p></div>
+          <b>✓</b>
+        </div>
+        <div class="how-step">
+          <span>02</span>
+          <div><strong>Find your own rhythm</strong><p>Make a plan that feels clear, flexible, and yours.</p></div>
+          <b>✓</b>
+        </div>
+        <div class="how-step">
+          <span>03</span>
+          <div><strong>Make good things happen</strong><p>Keep an eye on the big picture while doing the next right thing.</p></div>
+          <b>✓</b>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE DETAILS -->
+  <section class="section details-section">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">A LITTLE MORE ROOM FOR GOOD WORK</p>
+        <h2>One workspace. More possibilities.</h2>
+      </div>
+
+      <div class="detail-grid">
+        <article class="detail-card" id="project-details">
+          <span class="detail-number">01 — PROJECTS</span>
+          <h3>Everything, in its place.</h3>
+          <p>Organize projects, assign responsibilities, manage deadlines and track progress from one clear workspace.</p>
+          <ul>
+            <li>Project boards and task lists</li>
+            <li>Deadlines and assignments</li>
+            <li>Progress tracking</li>
+          </ul>
+        </article>
+
+        <article class="detail-card" id="automation-details">
+          <span class="detail-number">02 — AUTOMATION</span>
+          <h3>Let the little things flow.</h3>
+          <p>Reduce repetitive work with simple workflows that help your team spend more time on meaningful tasks.</p>
+          <ul>
+            <li>Automated task reminders</li>
+            <li>Workflow organization</li>
+            <li>Routine task management</li>
+          </ul>
+        </article>
+
+        <article class="detail-card" id="collaboration-details">
+          <span class="detail-number">03 — COLLABORATION</span>
+          <h3>Better work, together.</h3>
+          <p>Keep conversations, updates and shared responsibilities organized so everyone knows what comes next.</p>
+          <ul>
+            <li>Shared team workspace</li>
+            <li>Task updates and communication</li>
+            <li>Team progress visibility</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">SIMPLE, LIKE IT SHOULD BE</p>
+        <h2>More flow. <em>No funny math.</em></h2>
+        <p>Start small. Find your rhythm. Grow when it feels right.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <article class="pricing-card">
+          <div>
+            <h3>The essentials</h3>
+            <p>A lovely place to start.</p>
+          </div>
+          <div class="price">$0 <span>forever</span></div>
+          <ul>
+            <li>✓ Up to 3 projects</li>
+            <li>✓ Unlimited tasks</li>
+            <li>✓ Shared team workspace</li>
+          </ul>
+          <button class="btn btn-outline pricing-button" data-plan="Starter" data-price="0">
+            Start for free <span>→</span>
+          </button>
+        </article>
+
+        <article class="pricing-card featured-plan">
+          <span class="popular-label">MOST POPULAR</span>
+          <div>
+            <h3>The whole picture</h3>
+            <p>For teams ready to find their flow.</p>
+          </div>
+          <div class="price">$12 <span>per person / month</span></div>
+          <ul>
+            <li>✓ Unlimited projects</li>
+            <li>✓ Timelines and workload</li>
+            <li>✓ Thoughtful team insights</li>
+          </ul>
+          <button class="btn btn-primary pricing-button" data-plan="Growth" data-price="12">
+            Try it free <span>→</span>
+          </button>
+        </article>
+
+        <article class="pricing-card">
+          <div>
+            <h3>The bigger picture</h3>
+            <p>For teams ready for more control.</p>
+          </div>
+          <div class="price">$24 <span>per person / month</span></div>
+          <ul>
+            <li>✓ Everything in Growth</li>
+            <li>✓ Advanced workflows</li>
+            <li>✓ Detailed team analytics</li>
+          </ul>
+          <button class="btn btn-outline pricing-button" data-plan="Pro" data-price="24">
+            Choose Pro <span>→</span>
+          </button>
+        </article>
+
+      </div>
+
+      <p class="pricing-note">Illustrative demo pricing. No real payment is processed.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container cta-grid">
+      <div>
+        <p class="eyebrow">YOUR NEXT CHAPTER, A LITTLE CALMER</p>
+        <h2>Make a little<br>room for <em>good work.</em></h2>
+        <p>A calmer week is closer than you think. Come on in.</p>
+      </div>
+
+      <form class="cta-form" id="ctaForm" novalidate>
+        <h3>A good place to start is your email.</h3>
+        <div class="cta-input-row">
+          <input type="email" id="ctaEmail" placeholder="you@yourteam.com" required>
+          <button class="btn btn-primary" type="submit">Get started →</button>
+        </div>
+        <small>No credit card. No awkward sales call. Just a better workspace.</small>
+        <p class="form-feedback" id="ctaFeedback" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">SAY HELLO</p>
+        <h2>Good things start with a conversation.</h2>
+        <p>Have a question or want to see a demo? We'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's talk.</h3>
+          <p>Get in touch with the FlowPilot team.</p>
+
+          <div class="contact-detail">
+            <span>✉</span>
+            <div><strong>Email</strong><p>hello@flowpilot.example</p></div>
+          </div>
+          <div class="contact-detail">
+            <span>⌖</span>
+            <div><strong>Location</strong><p>Gachibowli, Hyderabad, Telangana, India</p></div>
+          </div>
+          <div class="contact-detail">
+            <span>◷</span>
+            <div><strong>Working hours</strong><p>Monday – Saturday, 9 AM – 6 PM</p></div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Send us a note.</h3>
+
+          <label for="contactName">Your name</label>
+          <input type="text" id="contactName" placeholder="Your full name" required>
+
+          <label for="contactEmail">Email address</label>
+          <input type="email" id="contactEmail" placeholder="you@example.com" required>
+
+          <label for="contactMessage">What is on your mind?</label>
+          <textarea id="contactMessage" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button class="btn btn-primary btn-full" type="submit">Send message →</button>
+          <p class="form-feedback" id="contactFeedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-main">
+    <div>
+      <a href="#home" class="logo" aria-label="FlowPilot home">
+        <svg class="logo-symbol" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M8 39L13 12C14 8 17 5 22 5H42L35 14H23L21 21H35L28 30H20L18 39H8Z" fill="currentColor"/>
+          <path d="M21 21H35L28 30H20Z" fill="#B8DB91"/>
+        </svg>
+        <span class="logo-name">FlowPilot<span class="logo-dot">.</span></span>
+      </a>
+      <p>A little more room for good work.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#features">Why FlowPilot</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Say hello ↗</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> FlowPilot Studio. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- SIGNUP / LOGIN MODAL -->
+<div class="modal" id="authModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+
+    <h2 id="authTitle">Welcome to FlowPilot</h2>
+    <p class="modal-subtitle">Your smarter workspace starts here.</p>
+
+    <div class="auth-tabs">
+      <button class="auth-tab active" type="button" data-auth-tab="signup">Sign up</button>
+      <button class="auth-tab" type="button" data-auth-tab="login">Log in</button>
+    </div>
+
+    <form id="signupForm" novalidate>
+      <label for="signupName">Full name</label>
+      <input type="text" id="signupName" placeholder="Your full name" required>
+
+      <label for="signupEmail">Email address</label>
+      <input type="email" id="signupEmail" placeholder="you@example.com" required>
+
+      <label for="signupPassword">Password</label>
+      <input type="password" id="signupPassword" placeholder="At least 8 characters" required>
+
+      <label for="signupConfirm">Confirm password</label>
+      <input type="password" id="signupConfirm" placeholder="Repeat your password" required>
+
+      <button class="btn btn-primary btn-full" type="submit">Create account →</button>
+      <p class="form-feedback" id="signupFeedback" aria-live="polite"></p>
+    </form>
+
+    <form id="loginForm" class="hidden" novalidate>
+      <label for="loginEmail">Email address</label>
+      <input type="email" id="loginEmail" placeholder="you@example.com" required>
+
+      <label for="loginPassword">Password</label>
+      <input type="password" id="loginPassword" placeholder="Your password" required>
+
+      <button class="btn btn-primary btn-full" type="submit">Log in →</button>
+      <p class="form-feedback" id="loginFeedback" aria-live="polite"></p>
+    </form>
+
+    <p class="demo-disclaimer">Demo only. No real account is created.</p>
+  </div>
+</div>
+
+<!-- CHECKOUT MODAL -->
+<div class="modal" id="checkoutModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+    <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+
+    <h2 id="checkoutTitle">A little more room.</h2>
+    <p class="modal-subtitle">Review your selected FlowPilot plan.</p>
+
+    <div class="checkout-summary">
+      <div><span>Selected plan</span><strong id="checkoutPlan">Growth</strong></div>
+      <div><span>Demo price</span><strong id="checkoutPrice">$12 / person / month</strong></div>
+    </div>
+
+    <form id="checkoutForm" novalidate>
+      <label for="checkoutName">Full name</label>
+      <input type="text" id="checkoutName" placeholder="Your full name" required>
+
+      <label for="checkoutEmail">Email address</label>
+      <input type="email" id="checkoutEmail" placeholder="you@example.com" required>
+
+      <label for="paymentMethod">Payment method (demo)</label>
+      <select id="paymentMethod" required>
+        <option value="">Choose a payment method</option>
+        <option value="UPI">UPI</option>
+        <option value="Card">Credit / Debit card</option>
+        <option value="Net Banking">Net banking</option>
+      </select>
+
+      <button class="btn btn-primary btn-full" type="submit">Confirm demo selection →</button>
+      <p class="form-feedback" id="paymentSuccess" aria-live="polite"></p>
+      <p class="receipt-details" id="receiptDetails"></p>
+    </form>
+
+    <p class="demo-disclaimer">Demo checkout only. No payment will be taken.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
